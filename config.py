@@ -7,30 +7,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("28014879"))
+API_HASH = getenv("b563196137538eca38e470ad2a668d80")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8110337299:AAHxw4t8KKqa6hHIdbN64rIfw4ukhi1wtAk")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","iamakki001")
+OWNER_USERNAME = getenv("OWNER_USERNAME","your_sasuke69")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","sofia_x_music_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("sofia")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("BQGreR8AIKCR7NrGRtF8WEETvUi_hkUVKP2dDwc6SPhNXJWt10EfGz73qKXQdD9wv8KvnBjBZJEu9waoxCwcZK0LKzhAthbaK2r8SYUT6jbDEA1nd381y4EaHidMRdBFOWp21onQV4y4xeUv8XryGXcyYyq7Lvmsjfs8ZY_4tDvo3e5RkKKbPEm8Za0Z4ltuMR7kUOapt1dg98Ux-8sx1M9K0egHWgfBhFrcu6uYqQa_-eBzn3e-wvD0-GgSyHdCXIDIi-AGk-V1snlgCIIQbHgFgRJKwOAj70h5mgpbwQO-C1spy6XkC3MGPVrkl51W1F7s-D8MBXt1MnJJmRrxNiQc4BpvgwAAAAHjW5lwAA", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002311769574))
+LOGGER_ID = int(getenv("LOGGER_ID", --1002787593174))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5909658683))
+OWNER_ID = int(getenv("OWNER_ID", 7636218986))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -38,9 +38,9 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("lucky")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("Lucky197620082022")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -72,7 +72,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION",  BQGreR8AIKCR7NrGRtF8WEETvUi_hkUVKP2dDwc6SPhNXJWt10EfGz73qKXQdD9wv8KvnBjBZJEu9waoxCwcZK0LKzhAthbaK2r8SYUT6jbDEA1nd381y4EaHidMRdBFOWp21onQV4y4xeUv8XryGXcyYyq7Lvmsjfs8ZY_4tDvo3e5RkKKbPEm8Za0Z4ltuMR7kUOapt1dg98Ux-8sx1M9K0egHWgfBhFrcu6uYqQa_-eBzn3e-wvD0-GgSyHdCXIDIi-AGk-V1snlgCIIQbHgFgRJKwOAj70h5mgpbwQO-C1spy6XkC3MGPVrkl51W1F7s-D8MBXt1MnJJmRrxNiQc4BpvgwAAAAHjW5lwAA)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
